@@ -1,0 +1,85 @@
+@import url(/css/global/boilerplate.css);
+@import url(/css/global/fonts.css);
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--yellow);
+}
+.card {
+  display: grid;
+  row-gap: 12px;
+  padding: 24px;
+  width: 384px;
+  height: 522px;
+  border-radius: 20px;
+  background-color: var(--white);
+  box-shadow: 10px 10px;
+}
+
+.blog-image {
+  border-radius: 10px;
+}
+.content {
+  display: grid;
+  padding: none;
+  row-gap: 12px;
+  height: 194px;
+}
+.category {
+  width: 82px;
+  height: 29px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.875em;
+  font-weight: 800;
+  background-color: var(--yellow);
+}
+
+.title {
+  font-size: 1.5em;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.date {
+  font-size: 0.875em;
+  font-weight: 400;
+}
+
+.description {
+  color: var(--gray500);
+}
+
+.author {
+  display: flex;
+  height: 32px;
+}
+
+.userpic {
+  align-items: center;
+  height: 32px;
+  width: 32px;
+}
+
+.author_name {
+  margin: auto 10px;
+  font-weight: 800;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 20px;
+  width: 384px;
+  text-align: center;
+  font-size: 0.875em;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--gray500);
+}
